@@ -16,7 +16,7 @@ Untuk menginstal Brightness feature, jalankan perintah berikut:
 pip install .
 
 #cara penggunaan
-from motipy import Brightness feature
+from main import Brightness feature
 from PIL import Image
 
 # Memuat gambar
