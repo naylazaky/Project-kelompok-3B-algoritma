@@ -29,15 +29,3 @@ bright_image = adjust_brightness(image, factor=1.5)
 bright_image.save('path/to/bright_image.jpg')
 
 
-
-### Penjelasan Singkat:
-- **Judul**: Nama proyek.
-- **Deskripsi**: Apa itu Motipy.
-- **Fitur**: Fitur utama dari paket.
-- **Instalasi**: Cara menginstal paket.
-- **Penggunaan**: Contoh kode untuk menggunakan paket.
-- **Dependensi**: Daftar dependensi yang diperlukan.
-- **Kontribusi**: Mengundang orang lain untuk berkontribusi.
-- **Lisensi**: Informasi tentang lisensi.
-- **Kontak**: Cara menghubungi jika ada pertanyaan.
-
