@@ -1,7 +1,7 @@
 # This is my simple project
-# Motipy
+# Brightness feature
 
-Motipy adalah paket Python yang digunakan untuk menyesuaikan kecerahan gambar. Paket ini memudahkan pengguna dalam mengubah kecerahan gambar sesuai kebutuhan.
+Brightness feature adalah paket Python yang digunakan untuk menyesuaikan kecerahan gambar. Paket ini memudahkan pengguna dalam mengubah kecerahan gambar sesuai kebutuhan.
 
 ## Fitur
 
@@ -10,13 +10,13 @@ Motipy adalah paket Python yang digunakan untuk menyesuaikan kecerahan gambar. P
 
 ## Instalasi
 
-Untuk menginstal Motipy, jalankan perintah berikut:
+Untuk menginstal Brightness feature, jalankan perintah berikut:
 
 ```bash
 pip install .
 
 #cara penggunaan
-from motipy import adjust_brightness
+from motipy import Brightness feature
 from PIL import Image
 
 # Memuat gambar
