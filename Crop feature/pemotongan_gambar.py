@@ -1,8 +1,13 @@
-from PIL import Image
+from PIL import Image   
 
 def crop_image():
     Gambar = input("Masukkan jalur gambar (contoh: D:/Images/input.jpg): ")
     Hasil = input("Masukkan jalur output untuk menyimpan gambar (contoh: D:/Images/output_cropped.jpg): ")
+    def ukuran_gambar(Gambar):
+        gambar = Image.open(Gambar)
+        lebar, tinggi = gambar.size
+        print(f"Ukuran gambar: {lebar}x{tinggi}")
+    ukuran_gambar(Gambar)
     print("Masukkan koordinat pemotongan gambar:")
     left = int(input("Koordinat kiri (left): "))
     top = int(input("Koordinat atas (top): "))
